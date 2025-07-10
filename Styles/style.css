@@ -30,7 +30,7 @@ header{
     padding: 10px;
 }
 /* nav css */
-nav{
+.header-nav{
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -163,7 +163,6 @@ nav{
 }
 .focus-img{
     margin-top:50px;
-    /* border-radius: 50px; */
 }
 .focus-img img{
     border-radius: 50px;
@@ -171,3 +170,18 @@ nav{
 
 /* footer css */
 
+footer{
+    text-align: center;
+    /* align-items: center; */
+}
+.footer-nav{
+    text-align: center;
+}
+.footer-nav ul{
+    display: flex;
+    gap: 50px;
+    /* text-align: center; */
+}
+li{
+    list-style: none;
+}
