@@ -1,9 +1,6 @@
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-style: normal;
-  font-variation-settings:
-    "wdth" 100; */
 }
 
 /* common css */
@@ -16,6 +13,10 @@ body{
     font-size: 16px;
     font-weight: 700;
 }
+button:hover, .form-submit:hover{
+    background-color: orangered;
+    padding: 13px 35px;
+}
 .primary-text{
     color: #252432;
     font-size: 20px;
@@ -26,7 +27,6 @@ body{
 header{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
-    /* margin: 0; */
     padding: 10px;
 }
 /* nav css */
@@ -99,18 +99,18 @@ header{
     margin: 0;
 }
 
-/* Reviewe css */
-.reviewe{
+/* Review css */
+.review{
     width: 80%;
     margin: 150px auto;
 }
-.reviewe-title{
+.review-title{
     color: #252432;
     font-size: 42px;
     font-weight: 800;
     text-align: center;
 }
-.reviewe-content{
+.review-content{
     display: flex;
     gap: 20px;
 }
@@ -139,7 +139,6 @@ header{
     height: 100%;
 }
 .reviewer-name{
-    /* margin: 0; */
     color: #252432;
     font-size: 14px;
     font-weight: 500;
@@ -168,20 +167,79 @@ header{
     border-radius: 50px;
 }
 
+/* form css */
+.form{
+    display: flex;
+    width: 80%;
+    margin: 150px auto;
+    justify-content: space-between;
+}
+.form-title{
+    color: #000;
+    font-size: 90px;
+    font-weight: 800;
+}
+.form section{
+    width: 50%;
+}
+.form label{
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.input-area{
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    resize: none;
+}
+.form-submit{
+    display: block;
+    padding: 10px;
+    background-color: #4E47FF;
+    color: #fff;
+    width: 425px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+
 /* footer css */
 
 footer{
     text-align: center;
-    /* align-items: center; */
+    margin-bottom: 100px;
 }
-.footer-nav{
-    text-align: center;
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+    margin: 0;
+}
+.footer-text{
+    color: #8987A1;
+    font-size: 14px;
+    font-weight: 300;
+}
+footer div{
+    width: 500px;
+    margin: auto;
 }
 .footer-nav ul{
     display: flex;
     gap: 50px;
-    /* text-align: center; */
 }
 li{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+/* end css */

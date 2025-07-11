@@ -50,9 +50,9 @@
             </section>
         </article>
 
-        <article class="reviewe">
-            <h3 class="reviewe-title">What our user say</h3>
-            <section class="reviewe-content">
+        <article class="review">
+            <h3 class="review-title">What our user say</h3>
+            <section class="review-content">
                 <div class="review-card">
                     <img src="./Assets/icon-star.png" alt="">
                     <img src="./Assets/icon-star.png" alt="">
@@ -114,27 +114,36 @@
         </article>
 
         <article class="form">
+            <h1 class="form-title">Let’s Get in Touch</h1>
             <section>
-                <h1>Let’s Get in Touch</h1>
-            </section>
-            <section>
-                <form action="">
+                <form>
+                    <label for="email">Email</label>
+                    <input class="input-area" type="email" name="" id="email" placeholder="example@email.com">
 
+                    <label for="name">Name</label>
+                    <input class="input-area" type="text" name="" id="name" placeholder="full name">
+                    
+                    <label for="message">Message</label>
+                    <textarea class="input-area" cols="" rows="4" name="" id="message" placeholder="write your message ..."></textarea>
+                    
+                    <input class="form-submit" type="submit" value="Get in Touch">
                 </form>
             </section>
         </article>
     </main>
     <footer>
-        <h1>LOGO</h1>
-        <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
-        <nav class="footer-nav">
+        <h1 class="footer-title">LOGO</h1>
+        <p class="footer-text">Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
+        <div>
+            <nav class="footer-nav">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>How it work</li>
-                <li>Sevices</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">How it work</a></li>
+                <li><a href="">Sevices</a></li>
             </ul>
         </nav>
+        </div>
     </footer>
 </body>
 </html>
